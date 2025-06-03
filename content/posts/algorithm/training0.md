@@ -572,7 +572,13 @@ int main() {
 >
 > #### 数据范围与约定
 >
-> $1\le t\le 100;\\1\le x,y\le 100,x\neq y;\\1\le k\le 100.$
+> $$
+> \begin{aligned}
+> 1\le t\le 100;\\
+> 1\le x,y\le 100,x\neq y;\\
+> 1\le k\le 100.
+> \end{aligned}
+> $$
 >
 > #### 样例解释
 >

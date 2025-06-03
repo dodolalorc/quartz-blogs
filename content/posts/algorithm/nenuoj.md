@@ -2156,9 +2156,9 @@ int main()
 给定一个n个整数的集合：A={a1, a2,..., an}，我们如下定义函数d(A)：
 $$
 d(A)=\max\limits_{1\leq s_1\leq t_1\leq s_2\leq t_2\leq n}
-\begin{Bmatrix}
+\begin{aligned}
 \sum_{i=s_1}^{t_1}a_i+\sum_{j=s_2}^{t_2}a_j\\ 
-\end{Bmatrix}
+\end{aligned}
 $$
 你的任务就是计算函数d(A)的函数值。
 提示：对于样例，我们选择{2,2,3,-3,4} 和 {5}，进行想加得到函数d(A)的函数值。

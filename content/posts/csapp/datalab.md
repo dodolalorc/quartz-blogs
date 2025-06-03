@@ -116,19 +116,23 @@ int tmin(void) {
 
 注意到：
 $$
+\begin{aligned}
 Tmax=0x7fffffff,Tmin=0x80000000\\
 so,that:Tmax=\sim Tmin,Tmax+1 = Tmin\\
 -Tmin = \sim Tmin + 1 = Tmax + 1 = Tmin\\
 so,that:\\
 -(\sim Tmax) = Tmax + 1 = \sim Tmax\\
+\end{aligned}
 $$
 也就是说，假如`~x`的相反数与`~x`相等，则满足`x=Tmax`。
 
 注意除了`Tmax`拥有这个性质，当`x=-1`时：
 $$
+\begin{aligned}
 x=0xffffffff\\ 
 \sim x=0x00000000\\
 -(\sim x)=\sim (\sim x)+1 = x+1 = 0x00000000
+\end{aligned}
 $$
 也满足这个上述特点，需要排除。
 
@@ -319,6 +323,7 @@ int logicalNeg(int x) {
 
 计算出表示$x$​需要的最少补码位数。
 $$
+\begin{aligned}
 0=0b0,1bit\\
 1=0b01,2bits\\
 -1=0b1,1bit\\
@@ -326,6 +331,7 @@ $$
 -2=0b10,2bits\\
 3=0b011,3bits\\
 -3=0b101,3bits
+\end{aligned}
 $$
 如果是正数的话`x`补码形如：`0x00001...`，所需补码位数是从左向右第一个1的位置在+1（符号位），负数的话`x`补码形如：`0x11110...`，取反之后是`0x00001...`，所需位数是从左向右第一个1的位置+1。
 
