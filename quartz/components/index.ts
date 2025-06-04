@@ -51,3 +51,11 @@ export {
   Flex,
   ConditionalRender,
 }
+
+export function PageNavigation(): import("./types").QuartzComponent {
+  throw new Error("Function not implemented.")
+}
+export function FloatingButtons(arg0: { position: string }): import("./types").QuartzComponent {
+  throw new Error("Function not implemented.")
+}
+
