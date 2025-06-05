@@ -21,9 +21,9 @@ import MobileOnly from "./MobileOnly"
 import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
+import PageNavigation from "./PageNavigation"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
-
 export {
   ArticleTitle,
   Content,
@@ -48,14 +48,7 @@ export {
   NotFound,
   Breadcrumbs,
   Comments,
+  PageNavigation,
   Flex,
   ConditionalRender,
 }
-
-export function PageNavigation(): import("./types").QuartzComponent {
-  throw new Error("Function not implemented.")
-}
-export function FloatingButtons(arg0: { position: string }): import("./types").QuartzComponent {
-  throw new Error("Function not implemented.")
-}
-
