@@ -32,7 +32,7 @@ title: "Hi from dodola"
 
 喜欢看点音乐剧（没错你怎么知道2025.10我要去看法红黑了），看点番看点电影看点日剧韩剧，还有看点小说（但是最近看书越来越少了T-T）
 
-目前正在准备字节跳动的暑期实习，正在学习 Electron 和 Chromium 内核。
+目前正在字节跳动实习，正在学习 Electron 和 Chromium 内核相关的部分。
 
 **联系方式**：[gmail](mailto:chenflora124@gmail.com)
 
@@ -48,11 +48,13 @@ title: "Hi from dodola"
 
 * 博客框架：
   - 2023/11 [Hugo](https://gohugo.io/)
-  - 2025/05 更换为[Rspress](https://rspress.dev/zh/index) *当前使用
+  - 2025/05 更换为[Rspress](https://rspress.dev/zh/index)
+  - 2025/06 更换为[Quartz](https://quartz.jzhao.xyz/) *当前使用
 * 主题：
   - 2023/11 [PaperMod](https://adityatelange.github.io/hugo-PaperMod/)
   - 2024/07 [DoIt](https://hugodoit.pages.dev/zh-cn/)
-  - 2025/05 Rspress 默认主题 + 修改了一些样式和组件 *当前使用
+  - 2025/05 Rspress 默认主题 + 修改了一些样式和组件
+  - 2025/06 Quartz 默认主题 + 修改一些样式和组件 *当前使用
 * 仓库：[GitHub](https://github.com/dodolalorc/dodolalorc.github.io.git)
 
 **线路信息**
