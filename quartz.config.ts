@@ -14,19 +14,19 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: {
       provider: "clarity",
-      projectId: "pwaa8m5gpf"
+      projectId: "pwaa8m5gpf",
     },
     locale: "zh-CN",
     baseUrl: "dodolalorc.cn",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
-      fontOrigin: "googleFonts",
-      cdnCaching: true,
+      fontOrigin: "local",
+      cdnCaching: false,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
-        code: "IBM Plex Mono",
+        header: "LXGWWenKaiScreen",
+        body: "LXGWWenKaiScreen",
+        code: "Monaco",
       },
       colors: {
         lightMode: {
