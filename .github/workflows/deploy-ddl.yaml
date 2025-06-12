@@ -40,7 +40,7 @@ jobs:
         run: |
           pnpm install
 
-      - name: Build with Rspress
+      - name: Build with
         run: |
           pnpm run build
           
