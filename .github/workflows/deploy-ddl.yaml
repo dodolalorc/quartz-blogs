@@ -50,7 +50,7 @@ jobs:
           # github_token: ${{ secrets.GITHUB_TOKEN }} 该项适用于发布到源码相同repo的情况，不能用于发布到其他repo
           external_repository: dodolalorc/dodolalorc.github.io # 发布到哪个repo
           personal_token: ${{ secrets.ACTION_ACCESS_TOKEN }} # 发布到其他repo需要提供上面生成的personal access token
-          publish_dir: ./doc_build/ # 要发布哪个文件夹的内容
+          publish_dir: ./public/ # 要发布哪个文件夹的内容
           keep_files: true # 是否保留其他文件
           publish_branch: main # 发布到哪个branch
           commit_message: ${{ github.event.head_commit.message }} # 提交信息
