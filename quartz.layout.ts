@@ -6,10 +6,13 @@ export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
   afterBody: [Component.PageNavigation()],
-  footer: Component.Footer({
-    links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+  footer: Component.Comments({
+    provider: "giscus",
+    options: {
+      repo: "dodolalorc/dodolalorc.github.io",
+      repoId: "R_kgDOLYjsRQ",
+      category: "Announcements",
+      categoryId: "DIC_kwDOLYjsRc4Clp7p",
     },
   }),
 }
