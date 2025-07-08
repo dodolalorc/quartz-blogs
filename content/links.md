@@ -37,6 +37,7 @@ isLink: true
 | YorkWu's Blog | [https://wyy.ink/](https://wyy.ink/) | ddl:一个很强的学长QwQ！！👍 |
 | 无双 | [https://blog.wushuang233.com/](https://blog.wushuang233.com/) | ddl:是很强的陈老师！👨‍🏫 |
 | Roses | [https://rossqaq.github.io/](https://rossqaq.github.io/) | NENU 唯一懂 C++ 的人 💻 |
+| Steve Paul | [https://gsteve-paul.github.io/](https://gsteve-paul.github.io/) | 唯一史诗神 👑 |
 | Echo 的小窝 | [https://www.liveout.cn/](https://www.liveout.cn/) | 漂泊于互联网中的小窝 🏠 |
 | KAMIASUKA’s Blog | [https://kamiasuka.top/index.html](https://kamiasuka.top/index.html) | Patience is key in life ⏳ |
 | 松種小窝 | [https://pineseed.cn/](https://pineseed.cn/) | 花开又花落，时节暗中迁 🌸 |
