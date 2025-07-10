@@ -1,10 +1,20 @@
-name: Deploy to remote server
+name: Deploy to Remote Server
 
 # 触发条件
 on:
   push:
     branches: [ v4 ]
+
   workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
 
 jobs:
   # Build job
