@@ -1,29 +1,25 @@
 ---
-title: "友達です！"
+title: 友達です！
 subtitle: ""
 date: 2024-07-04T20:24:20+08:00
 lastmod: 2024-07-04T20:24:20+08:00
 draft: false
-authors: []
-description: "友链 挂挂"
-
-tags: []
-categories: []
-series: []
-
+authors: 
+description: 友链 挂挂
+tags:
+  - intro
+categories: 
+series: 
 hiddenFromHomePage: false
 hiddenFromSearch: false
-
 featuredImage: ""
 featuredImagePreview: ""
-
 toc:
   enable: false
 math:
   enable: false
 lightgallery: false
 license: ""
-
 isLink: true
 ---
 
