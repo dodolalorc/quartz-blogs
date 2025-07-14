@@ -1,14 +1,14 @@
-+++
-title = '【网站美化】标签美化'
-date = 2023-12-13T23:00:09+08:00
-draft = false
-tags = [
-    'CSS','美化',
-]
-categories = [
-    '关于Hugo的一些设置'
-]
-+++
+---
+title : '【网站美化】标签美化'
+date : 2023-12-13T23:00:09+08:00
+lastmod: 2023-12-14T16:51:01+08:00
+draft : false
+tags : 
+    - 'CSS'
+    - '美化'
+categories : 
+    - '关于本站点的一些设置'
+---
 ## 简单设计
 
 `assets/css/common/terms.css`添加：

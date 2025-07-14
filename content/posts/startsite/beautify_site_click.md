@@ -1,15 +1,16 @@
-+++
-title = '【网站美化】点击特效'
-date = 2023-12-18T14:12:39+08:00
-draft = false
-tags = [
-    'JavaScript','美化','Hugo','Canva'
-]
-categories = [
-    '关于Hugo的一些设置'
-]
-
-+++
+---
+title : '【网站美化】点击特效'
+date : 2023-12-18T14:12:39+08:00
+lastmod : 2023-12-18T14:12:39+08:00
+draft : false
+tags : 
+    - 'JavaScript'
+    - '美化'
+    - 'Hugo'
+    - 'Canva'
+categories : 
+    - '关于本站点的一些设置'
+---
 
 今天摸鱼把网站的点击特效做了QwQ，选用的效果是烟花（/逆飞的流星🎆🎆，主要摸索了如何在Hugo里添加JavaScript代码
 

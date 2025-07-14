@@ -1,14 +1,21 @@
-+++
-title = '为twikoo添加图片功能'
-date = 2024-05-29T15:24:24+08:00
-draft = false
-tags = [
-  'Twikoo'
-]
-categories = [
-    '关于Hugo的一些设置'
-]
-+++
+---
+title : '为twikoo添加图片功能'
+date : 2024-05-29T15:24:24+08:00
+lastmod: 2024-05-29T16:51:01+08:00
+draft : false
+tags :
+  - 'Twikoo'
+  - '图床'
+  - 'Lsky Pro'
+categories :
+  - '关于本站点的一些设置'
+toc:
+  enable: true
+math:
+  enable: true
+lightgallery: false
+license: ""
+---
 
 > 一篇私有配置图床，给 twikoo 评论插件添加图片功能的文章。
 

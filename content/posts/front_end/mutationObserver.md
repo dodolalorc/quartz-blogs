@@ -11,7 +11,7 @@ tags: [
   "前端", "JavaScript"
 ]
 categories: [
-  "在前端搬砖的日子里", "关于Hugo的一些设置"
+  "在前端搬砖的日子里", "关于本站点的一些设置"
 ]
 series: []
 

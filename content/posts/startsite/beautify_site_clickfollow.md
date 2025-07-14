@@ -1,14 +1,16 @@
-+++
-title = '【网站美化】点击特效2'
-date = 2023-12-19T20:57:26+08:00
-draft = false
-tags = [
-    'JavaScript','美化','CSS','光标',
-]
-categories = [
-    '关于Hugo的一些设置'
-]
-+++
+---
+title : '【网站美化】点击特效2'
+date : 2023-12-19T20:57:26+08:00
+lastmod: 2023-12-19T20:57:26+08:00
+draft : false
+tags : 
+    - 'JavaScript'
+    - '美化'
+    - 'CSS'
+    - '光标'
+categories : 
+    - '关于本站点的一些设置'
+---
 
 增加了一个鼠标追尾的效果 QwQ
 
