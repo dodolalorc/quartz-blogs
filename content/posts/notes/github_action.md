@@ -1,22 +1,23 @@
 ---
-title: "Github Action实践"
+title: Github Action实践
 subtitle: ""
 date: 2024-07-05T23:11:39+08:00
 lastmod: 2024-09-22T22:11:39+08:00
 draft: false
-authors: []
+authors: 
 description: ""
-
-tags: ["Github Action", "自动化部署"]
-categories: ["我们需要更多的鱼"]
-series: []
-
+tags:
+  - Github
+  - Action
+  - 自动化部署
+  - Git
+categories:
+  - 我们需要更多的鱼
+series: 
 hiddenFromHomePage: false
 hiddenFromSearch: false
-
 featuredImage: ""
 featuredImagePreview: ""
-
 toc:
   enable: true
 math:
