@@ -97,9 +97,8 @@ RBE Stats: down 0 B, up 0 B, 1 local fallback
 }
 ```
 
-{{< admonition type=info title="不重要的小说明" open=false >}}
-`chcp 65001`只是为了在命令行中能够正常显示中文字符用的
-{{< /admonition >}}
+> [!info]- 不重要的小说明
+> `chcp 65001`只是为了在命令行中能够正常显示中文字符用的
 
 ### 调用 Api
 

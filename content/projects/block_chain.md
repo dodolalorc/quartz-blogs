@@ -25,9 +25,8 @@ lightgallery: false
 license: ""
 ---
 
-{{< admonition type=info title="GitHub仓库地址" open=false >}}
-GitHub 仓库地址：[BlockChain](https://github.com/dodolalorc/BlockChain)
-{{< /admonition >}}
+> [!info]- GitHub仓库地址
+> GitHub 仓库地址：[BlockChain](https://github.com/dodolalorc/BlockChain)
 
 ## 一、产品方案
 

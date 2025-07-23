@@ -23,11 +23,8 @@ lightgallery: false
 license: ""
 ---
 
-{{< admonition abstract "前言" true>}}
-
-这篇文章用于2024年蓝旭暑期项目前的培训作业教学，目的是从零开始构建一个购物车页面，以此来熟悉原生前端三件套。o((>ω< ))o
-
-{{< /admonition >}}
+> [!abstract]- 为什么有这篇低质量文章
+> 这篇文章用于2024年蓝旭暑期项目前的培训作业教学，目的是从零开始构建一个购物车页面，以此来熟悉原生前端三件套。o((>ω< ))o
 
 # 需求分析
 
@@ -109,12 +106,8 @@ license: ""
 </body>
 ```
 
-{{< admonition tip "关于吸顶和吸底的设计" false >}}
-
-设计吸顶和吸底的时候，我们可以使用`position: sticky`属性，这个属性可以让元素在滚动到特定位置时固定在页面上，这样可以让用户在浏览页面时更加方便。
-
-
-{{< /admonition >}}
+> [!tip]- 关于吸顶和吸底的设计
+> 设计吸顶和吸底的时候，我们可以使用`position: sticky`属性，这个属性可以让元素在滚动到特定位置时固定在页面上，这样可以让用户在浏览页面时更加方便。
 
 ### 购物车列表设计
 
@@ -261,69 +254,62 @@ license: ""
 
 我比较习惯使用flex布局，所以整个卡片的设计都是基于flex布局的，首先整个卡片是一个`flex`容器，里面有四个部分：`单选按钮`、`商品图片`、`商品信息`、`删除按钮`。按照这个顺序，我将他们横向排列，分别占据不同的比例。
 
-{{< admonition tip "在flex布局中让内部元素水平垂直居中，并且间隔合适的技巧" false >}}
+> [!tip]- 在flex布局中让内部元素水平垂直居中，并且间隔合适的技巧
+> 在flex布局中，我们可以通过`justify-content`和`align-items`来控制元素的水平和垂直居中，通过`margin`来控制元素之间的间隔。
+> 
+> 其中`justify-content`用于控制元素在主轴上的排列方式，`align-items`用于控制元素在交叉轴上的排列方式。
+> ```css
+> .div {
+>   display: flex;
+>   justify-content: center;
+>   align-items: center;
+> }
+> ```
+> 
+> `justify-content`除了`center`之外还有`flex-start`、`flex-end`、`space-between`、`space-around`等属性，`align-items`除了`center`之外还有`flex-start`、`flex-end`、`baseline`、`stretch`等属性，是很方便的布局方式，可以节省大量之前需要通过不断调整`margin`来实现的布局。具体区别可以在[justify-content](https://developer.mozilla.org/zh-CN/docs/Web/CSS/justify-content)和[align-items](https://developer.mozilla.org/zh-CN/docs/Web/CSS/align-items)在线演示。
 
-在flex布局中，我们可以通过`justify-content`和`align-items`来控制元素的水平和垂直居中，通过`margin`来控制元素之间的间隔。
-
-其中`justify-content`用于控制元素在主轴上的排列方式，`align-items`用于控制元素在交叉轴上的排列方式。
-
-```css
-.div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-```
-
-`justify-content`除了`center`之外还有`flex-start`、`flex-end`、`space-between`、`space-around`等属性，`align-items`除了`center`之外还有`flex-start`、`flex-end`、`baseline`、`stretch`等属性，是很方便的布局方式，可以节省大量之前需要通过不断调整`margin`来实现的布局。具体区别可以在[这里](https://developer.mozilla.org/zh-CN/docs/Web/CSS/justify-content)和[这里](https://developer.mozilla.org/zh-CN/docs/Web/CSS/align-items)在线演示。
-
-{{< /admonition >}}
 
 
 我固定了单选按钮、商品图片、删除按钮的大小，商品信息部分占据了剩下的空间。
 
 商品信息部分又分为两个部分：`商品描述`和`商品价格`，我将他们分别占据了不同的比例，使得整个卡片看起来比较美观。
 
-
-{{< admonition tip "在flex布局中让内部元素占据不同的比例" false >}}
-
-上面的`justify-content`和`align-items`更倾向于把元素均匀排列，有时候我们也需要让元素分别占据不同的比例，这时候我们可以试试通过`flex`属性来控制元素。
-
-例如上面的代码中，我通过`flex: 3`和`flex: 1`来控制商品描述和商品价格分别占据了3:1的比例。这样的写法相比较于`width`属性更加灵活，可以根据不同的屏幕大小自动调整。就像下面这样：
-
-```css
-.cart-item .info {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
-    .desp {
-        flex: 3;
-    }
-
-    .detail {
-        flex: 1;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-
-        .price {
-            span {
-                flex: 1;
-            }
-        }
-
-        .quantity {
-            span {
-                flex: 1;
-            }
-        }
-    }
-}
-
-```
-
-{{< /admonition >}}
+> [!tip]- 在flex布局中让内部元素占据不同的比例
+> 上面的`justify-content`和`align-items`更倾向于把元素均匀排列，有时候我们也需要让元素分别占据不同的比例，这时候我们可以试试通过`flex`属性来控制元素。
+> 
+> 例如上面的代码中，我通过`flex: 3`和`flex: 1`来控制商品描述和商品价格分别占据了3:1的比例。这样的写法相比较于`width`属性更加灵活，可以根据不同的屏幕大小自动调整。就像下面这样：
+> 
+> ```css
+> .cart-item .info {
+>     display: flex;
+>     flex-direction: row;
+>     justify-content: space-between;
+> 
+>     .desp {
+>         flex: 3;
+>     }
+> 
+>     .detail {
+>         flex: 1;
+>         display: flex;
+>         flex-direction: column;
+>         justify-content: space-around;
+> 
+>         .price {
+>             span {
+>                 flex: 1;
+>             }
+>         }
+> 
+>         .quantity {
+>             span {
+>                 flex: 1;
+>             }
+>         }
+>     }
+> }
+> 
+> ```
 
 #### 图标库
 
@@ -346,21 +332,19 @@ license: ""
 
 我比较习惯在设计完页面之后再写JavaScript逻辑，这样可以更好的理清思路，而且不需要总是再次调整Html和CSS。在设计完页面之后，我们通过让这个页面不再是一个静态的页面，而是一个可以动态交互的页面。
 
-{{< admonition tip "通过本地json来获得数据和渲染数据" false >}}
 
-由于这个只是用于前端学习的小项目，我们没有接口，不过在生成应用中，页面的数据是来自后端传递而来的（往往是一个json），所以在这个项目中，我们可以通过本地的json文件来模拟后端返回的数据，这样可以更好的模拟真实的购物车页面，同时也可以更好的理解前后端的交互。
-
-引入json文件的方法是通过`fetch`方法，这是一个异步方法，我们可以通过这个方法来获取json文件，然后通过`json()`方法来解析json文件。
-
-就像这样：
-
-```javascript
-fetch('data.json')
-  .then(response => response.json())
-  .then(data => console.log(data));
-```
-
-{{< /admonition >}}
+> [!tip]- 通过本地json来获得数据和渲染数据"
+> 由于这个只是用于前端学习的小项目，我们没有接口，不过在生成应用中，页面的数据是来自后端传递而来的（往往是一个json），所以在这个项目中，我们可以通过本地的json文件来模拟后端返回的数据，这样可以更好的模拟真实的购物车页面，同时也可以更好的理解前后端的交互。
+>
+> 引入json文件的方法是通过`fetch`方法，这是一个异步方法，我们可以通过这个方法来获取json文件，然后通过`json()`方法来解析json文件。
+> 
+> 就像这样：
+> 
+> ```javascript
+> fetch('data.json')
+>   .then(response => response.json())
+>   .then(data => console.log(data));
+> ```
 
 ## JS逻辑
 
@@ -446,26 +430,16 @@ const renderCartList = () => {
 
 注意到，在上述代码中，我为每一个`cart-item`添加了一个唯一的`id`属性，这个属性是用于标识每一个商品的，这样我们在之后的操作中可以通过这个`id`属性来找到对应的商品。
 
-{{< admonition tip "关于唯一标识符" true >}}
+> [!tip]- 关于唯一标识符
+> 在实际的项目中，我们往往需要为每一个商品添加一个唯一的标识符，这个标识符可以是商品的`id`，也可以是其他的唯一标识符，这样可以更好的操作商品，例如删除商品、修改商品数量等。
 
-在实际的项目中，我们往往需要为每一个商品添加一个唯一的标识符，这个标识符可以是商品的`id`，也可以是其他的唯一标识符，这样可以更好的操作商品，例如删除商品、修改商品数量等。
+> [!attention]+ 过滤错误数据"
+> 在实际的项目中，我们往往会遇到一些错误的数据，例如商品数量为负数或者小数、商品价格为负数等，这些数据是不符合实际的，我们需要在获取数据之后对这些数据进行过滤，这样可以保证数据的正确性。
+> 
+> 如果数据量比较大，我们也会选择使用`filter`方法来过滤数据。
 
-{{< /admonition >}}
-
-
-{{< admonition attension "过滤错误数据" true >}}
-
-在实际的项目中，我们往往会遇到一些错误的数据，例如商品数量为负数或者小数、商品价格为负数等，这些数据是不符合实际的，我们需要在获取数据之后对这些数据进行过滤，这样可以保证数据的正确性。
-
-如果数据量比较大，我们也会选择使用`filter`方法来过滤数据。
-
-{{< /admonition >}}
-
-{{< admonition bug "图片加载失败时" true >}}
-
-在实际的项目中，我们往往会遇到一些图片加载失败的情况，这时候我们可以通过`onerror`事件来监听图片加载失败的情况，然后通过一些方法来处理这种情况，例如显示一个默认图片、显示一个提示信息等。
-
-{{< /admonition >}}
+> [!bug]+ 图片加载失败时
+> 在实际的项目中，我们往往会遇到一些图片加载失败的情况，这时候我们可以通过`onerror`事件来监听图片加载失败的情况，然后通过一些方法来处理这种情况，例如显示一个默认图片、显示一个提示信息等。
 
 ### 改变商品数量
 

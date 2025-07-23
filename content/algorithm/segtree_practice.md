@@ -23,13 +23,8 @@ license: ""
 
 ---
 
-
-
-{{< admonition abstract "前言" true>}}
-
-痛定思痛练习线段树QAQ。
-
-{{< /admonition >}}
+> [!abstract]+ 反思中
+> 痛定思痛练习线段树QAQ。
 
 此篇包含尚未写完的题，事实上是一个**TODO List**。
 

@@ -151,11 +151,8 @@ int isTmax(int x) {
 }
 ```
 
-{{< admonition tip "提示" true>}}
-
-注意返回值是`int`型的，所以需要使用`!!`将结果转换为0或1。
-
-{{< /admonition >}}
+> [!tip]+ 提示
+> 注意返回值是`int`型的，所以需要使用`!!`将结果转换为0或1。
 
 
 ## 4. allOddBits

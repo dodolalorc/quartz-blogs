@@ -33,11 +33,8 @@ license: ""
 
 最近工作需要开发一个移动端应用，考虑到我们团队前端已经有Vue/React的开发经验，所以决定使用[Canacitor](https://capacitorjs.com/)来构建。
 
-{{< admonition abstract "Canacitor简介" false>}}
-
-Canacitor是一个基于Vue/React的移动端应用开发框架，它提供了一套完整的开发工具和组件库，可以帮助开发者快速构建移动端应用。
-
-{{< /admonition >}}
+> [!abstract]- Canacitor简介
+> Canacitor是一个基于Vue/React的移动端应用开发框架，它提供了一套完整的开发工具和组件库，可以帮助开发者快速构建移动端应用。
 
 ## 安装&创建项目
 
