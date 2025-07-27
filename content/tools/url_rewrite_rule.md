@@ -1,5 +1,5 @@
 ---
-title: URL 重写规则和静态资源解析逻辑
+title: 🌐URL 重写规则和静态资源解析逻辑
 description: 无后缀url应该如何匹配？
 tags:
   - 友好URL规则
@@ -16,8 +16,8 @@ categories:
 series: 
 hiddenFromHomePage: false
 hiddenFromSearch: false
-featuredImage: ""
-featuredImagePreview: ""
+featuredImage: https://img.dodolalorc.cn/i/2025/04/26/680c600020f90.png
+featuredImagePreview: https://img.dodolalorc.cn/i/2025/04/26/680c600020f90.png
 toc:
   enable: true
 math:

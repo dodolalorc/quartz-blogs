@@ -24,6 +24,7 @@ import Comments from "./Comments"
 import PageNavigation from "./PageNavigation"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
+import FeaturedImage from './FeaturedImage'
 export {
   ArticleTitle,
   Content,
@@ -51,4 +52,5 @@ export {
   PageNavigation,
   Flex,
   ConditionalRender,
+  FeaturedImage,
 }

@@ -1,28 +1,21 @@
 ---
-title: "CS-APP Datalab"
-subtitle: "实验记录"
+title: 🧪CS-APP Datalab
+subtitle: 实验记录
 date: 2024-07-04T20:49:31+08:00
 lastmod: 2024-07-04T20:49:31+08:00
 draft: false
-authors: []
-description: "记录CS-APP Datalab实验过程"
-
-tags: [
-  'CSAPP',
-]
-categories: [
-  '在学习计算机系统的日子里'
-]
-series: [
-    'CS:APP实验记录'
-]
-
+authors: 
+description: 记录CS-APP Datalab实验过程
+tags:
+  - CSAPP
+categories:
+  - 在学习计算机系统的日子里
+series:
+  - CS:APP实验记录
 hiddenFromHomePage: false
 hiddenFromSearch: false
-
 featuredImage: ""
 featuredImagePreview: ""
-
 toc:
   enable: true
 math:

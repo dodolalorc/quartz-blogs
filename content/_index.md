@@ -1,5 +1,5 @@
 ---
-title: Hi from dodola!
+title: 👋Hi from dodola!
 subtitle: ""
 date: 2025-07-15T00:03:14+08:00
 lastmod: 2025-07-15T00:03:14+08:00

@@ -24,10 +24,11 @@ export const defaultContentPageLayout: PageLayout = {
       component: Component.Breadcrumbs({
         rootName: "主页",
       }),
-      condition: (page) => page.fileData.slug !== "index",
+      condition: (page) => page.fileData.slug !== "_index",
     }),
     Component.ArticleTitle(),
     Component.ContentMeta(),
+    Component.FeaturedImage(),
     Component.TagList(),
   ],
   left: [

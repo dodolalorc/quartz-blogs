@@ -1,5 +1,5 @@
 ---
-title: Github Action实践
+title: 🙆‍♀️Github Action实践
 subtitle: ""
 date: 2024-07-05T23:11:39+08:00
 lastmod: 2024-09-22T22:11:39+08:00

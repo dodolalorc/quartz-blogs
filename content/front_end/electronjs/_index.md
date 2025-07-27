@@ -1,14 +1,12 @@
 ---
-title: 前端菜菜
+title: 💡Electron学习
 subtitle: ""
-date: 2025-07-15T00:01:20+08:00
-lastmod: 2025-07-15T00:01:20+08:00
+date: 2025-07-27T20:58:56+08:00
+lastmod: 2025-07-27T20:58:56+08:00
 draft: false
 authors: 
 description: ""
-tags:
-  - 前端
-  - intro
+tags: 
 categories: 
 series: 
 hiddenFromHomePage: false
@@ -24,4 +22,4 @@ license: ""
 ---
 
 
-其实是预备面试时准备的许多八股文。
+electron学习及其上游学习记录
