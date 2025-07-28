@@ -17,6 +17,7 @@ type Options = {
     strict?: boolean
     reactionsEnabled?: boolean
     inputPosition?: "top" | "bottom"
+    lang?: string
   }
 }
 
@@ -35,7 +36,8 @@ export default ((opts: Options) => {
     }
 
     return (
-      <div
+      <script
+        src="https://giscus.app/client.js"
         class={classNames(displayClass, "giscus")}
         data-repo={opts.options.repo}
         data-repo-id={opts.options.repoId}
@@ -50,7 +52,10 @@ export default ((opts: Options) => {
         data-theme-url={
           opts.options.themeUrl ?? `https://${cfg.baseUrl ?? "example.com"}/static/giscus`
         }
-      ></div>
+        data-lang={opts.options.lang}
+        crossorigin="anonymous"
+        async
+      ></script>
     )
   }
 
