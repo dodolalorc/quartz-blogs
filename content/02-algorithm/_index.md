@@ -1,26 +1,8 @@
 ---
 title: ⌨️做 AC 梦
-subtitle: ""
-date: 2025-07-14T23:46:17+08:00
-lastmod: 2025-07-14T23:46:17+08:00
-draft: false
-authors: 
-description: ""
 tags:
   - 算法
   - intro
-categories: 
-series: 
-hiddenFromHomePage: false
-hiddenFromSearch: false
-featuredImage: ""
-featuredImagePreview: ""
-toc:
-  enable: true
-math:
-  enable: true
-lightgallery: false
-license: ""
 ---
 
 # Intro
