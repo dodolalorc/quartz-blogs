@@ -1,5 +1,6 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+import { QuartzPluginData } from "./quartz/plugins/vfile"
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -46,7 +47,28 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
-    Component.DesktopOnly(Component.RecentNotes({ limit: 3, showTags: false })),
+    Component.DesktopOnly(Component.RecentNotes({
+      limit: 3,
+      showTags: false,
+      filter: (f) => f.frontmatter?.tags?.includes('intro') ? false : true,
+      sort: (f1: QuartzPluginData, f2: QuartzPluginData) => {
+        if (f1.frontmatter?.date && f2.frontmatter?.date) {
+          // Sort by date
+          if (f1.frontmatter?.date && f2.frontmatter?.date) {
+            return f1.frontmatter.date < f2.frontmatter.date ? 1 : -1
+          } else if (f1.frontmatter?.date && !f2.frontmatter?.date) {
+            return -1
+          } else if (!f1.frontmatter?.date && f2.frontmatter?.date) {
+            return 1
+          }
+
+          const f1Title = f1.frontmatter?.title.toLowerCase() ?? ""
+          const f2Title = f2.frontmatter?.title.toLowerCase() ?? ""
+          return f1Title.localeCompare(f2Title)
+        }
+        return 0
+      }
+    })),
     Component.Flex({
       components: [
         {

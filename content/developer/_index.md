@@ -1,5 +1,5 @@
 ---
-title: 📔开发菜菜笔记
+title: 📔菜菜开发笔记
 tags:
   - intro
   - 开发

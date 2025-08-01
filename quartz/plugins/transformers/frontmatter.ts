@@ -141,6 +141,8 @@ declare module "vfile" {
       aliases: string[]
       modified: string
       created: string
+      date: string
+      lastmod: string
       published: string
       description: string
       socialDescription: string

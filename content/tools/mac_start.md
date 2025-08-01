@@ -1,5 +1,5 @@
 ---
-title: 【doing】🍎我的 mac 开荒手册
+title: 🍎【doing】我的 mac 开荒手册
 subtitle: 为 mac 电脑快速配置一套舒服的开发环境
 date: 2025-08-01T23:54:00+08:00
 lastmod: 2025-08-01T23:54:00+08:00
