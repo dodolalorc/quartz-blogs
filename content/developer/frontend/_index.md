@@ -1,8 +1,9 @@
 ---
-title: 📔前端菜菜笔记
+title: 🍍Web前端菜菜笔记
 tags:
-  - 前端
   - intro
+  - 开发
+  - Web前端
 ---
 
 

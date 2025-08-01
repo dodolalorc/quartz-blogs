@@ -28,13 +28,13 @@ license: ""
 
 # 问题背景
 
-最近部署博客页面时遇到这样的问题：同样的页面结构，部署到我的两个域名下：dodolalorc.cn 和 dodolalorc.github.io，对应的网页内容是相同的，但是 dodolalorc.cn 需要写成https://dodolalorc.cn/links.html才能显示内容，否则会报404，dodolalorc.github.io就不需要这样。
+最近部署博客页面时遇到这样的问题：同样的页面结构，部署到我的两个域名下：`dodolalorc.cn` 和 `dodolalorc.github.io`，对应的网页内容是相同的，但是 dodolalorc.cn 需要写成`https://dodolalorc.cn/links.html`才能显示内容，否则会报404，`dodolalorc.github.io`就不需要这样。
 
 # 原因记录
 
 这种差异主要源于两个域名所对应的**服务器配置不同**，本质原因是服务器如何解析 “无后缀 URL”。
 
-我的 dodolalorc.cn 配置在服务器上，而 dodolalorc.github.io 将走 github page 的代理。
+我的 `dodolalorc.cn` 配置在服务器上，而 `dodolalorc.github.io` 将走 `github page` 的代理。
 
 当访问一个 URL（如`a.github.io/about`或`a.cn/about`）时，服务器需要判断这个请求对应的实际文件是什么。
 
