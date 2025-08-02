@@ -79,7 +79,19 @@ export const defaultContentPageLayout: PageLayout = {
         { Component: Component.ReaderMode() },
       ],
     }),
-    Component.Explorer(),
+    Component.Explorer({
+      sortFn: (a, b) => {
+        if (a.isFolder && b.isFolder)
+          return (a.slug > b.slug) ? 1 : -1
+        if (a.isFolder && !b.isFolder)
+          return -1
+        if (!a.isFolder && b.isFolder)
+          return 1
+        if (a.data?.date && b.data?.date)
+          return a.data.date < b.data.date ? 1 : -1
+        return a.displayName.localeCompare(b.displayName)
+      },
+    }),
   ],
   right: [
     Component.Graph(),
