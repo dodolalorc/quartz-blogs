@@ -23,7 +23,7 @@ math:
 lightgallery: false
 license: ""
 ---
-> 
+
 有时候会更新一些目录页说明，更新说明时会出现博客左上角的“最近笔记”模块显示成这些目录页的更新，于是在自定义设置中记录一下`Component.RecentNotes({})`的使用。
 
 quartz 主题官方有一篇介绍：[最近笔记](https://quartz.zituoguan.com/features/recent-notes)

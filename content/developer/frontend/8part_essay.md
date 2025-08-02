@@ -3,10 +3,11 @@ title: 前端八股文小题集合
 subtitle: ""
 date: 2025-03-13T14:08:19+08:00
 lastmod: 2025-03-13T14:08:19+08:00
-draft: true
+draft: false
 authors: 
 description: ""
-tags: 
+tags:
+  - 前端八股文
 categories: 
 series: 
 hiddenFromHomePage: false

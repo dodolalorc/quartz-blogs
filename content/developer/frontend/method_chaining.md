@@ -10,6 +10,7 @@ tags:
   - 前端
   - 链式调用
   - JavaScript
+  - 前端八股文
 categories:
   - 在前端搬砖的日子里
 series:
