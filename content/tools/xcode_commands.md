@@ -35,7 +35,33 @@ license: ""
 
 ## 2.安装各种版本的 Xcode
 
+### 获取所需版本 Xcode 压缩包
+
 [Xcode Releases](https://xcodereleases.com/) 可以搜索安装各个版本的 Xcode，所有的可获得版本均来自官方下载连接。
+
+### 重命名 Xcode 并移动到应用程序文件夹中
+
+解压后将 Xcode 重命名为 `Xcode_{版本号}` ，如 `Xcode_16.2` ，将其从 `Downloads` 文件夹下移动到`/Applications` 下。
+
+```bash
+cd Downloads
+mv Xcode.app Xcode_16.2.app
+mv Xcode_16.2.app /Applications
+
+# 查看
+cd /Applications
+ls
+```
+
+### 同意 License
+
+从上面的链接下载的 Xcode 还没有同意使用许可，命令行运行：
+
+```bash
+sudo xcodebuild -license
+```
+
+按照提示输入密码即可。
 
 # xcode-select
 
