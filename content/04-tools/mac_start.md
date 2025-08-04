@@ -86,10 +86,10 @@ xcode-select --install
 >   - `sdkmanager`：管理 SDK 路径（如  `xcrun --show-sdk-path`）。
 >   - `pkgutil`：软件包管理工具。
 
-或许你也对[💻 常用 xcode 使用命令](/tools/xcode_commands)感兴趣。
+或许你也对[💻 常用 xcode 使用命令](/04-tools/xcode_commands)感兴趣。
 
 # Git 环境设置
 
 Mac 系统自带了 Git，或者在安装 XCode 时，也已经安装了 Git。
 
-可以参考此文章获得更详细的配置：[🔑Git 环境配置和 SSH 公钥设置](/tools/git_settings)
+可以参考此文章获得更详细的配置：[🔑Git 环境配置和 SSH 公钥设置](/04-tools/git_settings)
