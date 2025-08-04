@@ -6,7 +6,9 @@ lastmod: 2025-08-02T01:31:10+08:00
 draft: false
 authors: 
 description: ""
-tags: 
+tags:
+  - Git
+  - SSH
 categories: 
 series: 
 hiddenFromHomePage: false
