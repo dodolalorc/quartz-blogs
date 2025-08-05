@@ -1,5 +1,5 @@
 ---
-title: Electron 构建记录
+title: Electron 构建记录 | 一条龙服务script
 subtitle: 
 date: 2025-04-25T13:27:50+08:00
 lastmod: 2025-04-25T13:27:50+08:00
@@ -26,16 +26,11 @@ license: ""
 ---
 
 > System：Windows 11
->
 > Python：Python 3.13.3
->
 > node：v22.14.0
->
 > npm：10.9.2
->
 > yarn：1.22.22
->
-> 足够的磁盘空间和流量
+> 足够的磁盘空间和流量：源代码一套（chromium+electron）大约 70G，预留构建内核的内存空间，一共保留 200G 比较好
 
 ## 初始化环境
 
@@ -68,11 +63,13 @@ ERROR:root:Failed to bootstrap depot_tools.
 Git was not found in PATH. Have you installed it?
 ```
 
-本机使用[Scoop](https://scoop.sh/)安装大部分的软件，难过的是通过这样下载的`git`无法被`depot_tools`工具识别，只能卸载本机当前的`git`后在[git](https://git-scm.com/downloads)重新下载一遍，之后的`gclient`。
+本机使用[Scoop](https://scoop.sh/)安装大部分的软件，难过的是通过这样下载的`git`无法被`depot_tools`工具识别，只能卸载本机当前的`git`后在[git](https://git-scm.com/downloads)重新下载一遍，之后`gclient`。
 
 ### Electron build-tools
 
-本篇使用的脚本是[Electron build-tools](https://github.com/electron/build-tools)。
+本篇使用的脚本是[Electron build-tools](https://github.com/electron/build-tools)，傻瓜一站式拉取不用管任何版本或分支。
+
+> 注意需要安装好 yarn 等工具：`npm i -g yarn`
 
 按照 readme 的提示安装：
 
@@ -86,7 +83,7 @@ npm i -g @electron/build-tools
 e init --root=~/electron --bootstrap testing
 ```
 
-`--root=~/electron`是拉取的时候想要存源码的位置，如果留空则在当前路径下，建议选择合适的磁盘，至少光是源码已经占据 20 多个 G 了，考虑到之后还有依赖包。
+`--root=~/electron`是拉取的时候想要存源码的位置，如果留空则在当前路径下，建议选择合适的磁盘。
 
 #### 识别不到命令
 
@@ -106,6 +103,8 @@ Checking for build-tools updates
 本机使用了 node.js 版本管理工具`fnm`，继而想到或许需要激活 node 环境，于是先运行了`fnm use v22`，发现继续的拉取依然有问题，想到或许是通过`fnm`设置的临时环境会不被识别，于是选择直接在 [node.js](https://nodejs.org/en) 官网下载一个合适的版本，这样操作之后能成功运行完毕。
 
 不太确定`nvm`会不会也有这样的问题，但是插个眼，解决方法还是比较简单的。
+
+> `update`：Mac 上没有这个问题捏
 
 ## 构建
 
@@ -131,4 +130,4 @@ e start
 
 ![50d9f84772570dea5e3f8dd6c1fd2dd2.png](https://img.dodolalorc.cn/i/2025/04/27/680dd96b91c23.png)
 
-合影😗
+合影 😗
