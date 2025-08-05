@@ -1,11 +1,11 @@
 ---
-title: Codeforces Round 977 (Div. 2, based on COMPFEST 16 - Final Round)
+title: 💭Codeforces Round 977 (Div. 2, based on COMPFEST 16 - Final Round)
 subtitle: ""
 date: 2024-10-25T14:57:19+08:00
 lastmod: 2024-10-25T14:57:19+08:00
 draft: false
 authors: []
-description: Codeforces Round 977 (Div. 2, based on COMPFEST 16 - Final Round)
+description: 💭Codeforces Round 977 (Div. 2, based on COMPFEST 16 - Final Round)
 tags:
   - 算法
   - CF

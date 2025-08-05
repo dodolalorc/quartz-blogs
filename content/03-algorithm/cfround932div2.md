@@ -1,5 +1,5 @@
 ---
-title : 'Codeforces Round 932(div2)'
+title : '💭Codeforces Round 932(div2)'
 date : 2024-03-13T12:26:06+08:00
 draft: false
 authors: []

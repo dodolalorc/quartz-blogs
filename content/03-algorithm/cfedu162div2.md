@@ -1,5 +1,5 @@
 ---
-title : 'Educational Codeforces Round 162(div2)'
+title : '💭Educational Codeforces Round 162(div2)'
 date : 2024-02-29T14:57:07+08:00
 draft: false
 authors: []
