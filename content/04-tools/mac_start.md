@@ -1,10 +1,15 @@
 ---
 title: 🍎【doing】我的 mac 开荒手册
-subtitle: 为 mac 电脑快速配置一套舒服的开发环境
-date: 2025-08-01T23:54:00+08:00
-lastmod: 2025-08-01T23:54:00+08:00
+description: ""
+tags:
+  - "Mac"
+  - "Git"
+  - Item2
+  - zsh
+date: 2025-08-01
+lastmod: 2025-08-05
 draft: false
-authors: 
+cover: 
 description: ""
 tags:
   - "#Mac"
@@ -56,6 +61,156 @@ export HOMEBREW_BOTTLE_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bot
 brew update
 ```
 
+# oh-my-zsh
+
+oh-my-zsh 是 zsh 的拓展工具集，安装 oh-my-zsh 的前提条件是安装使用 zsh。
+
+## zsh
+
+查询`zsh`版本：`zsh --version`
+
+列出可用终端：
+
+```bash
+cat /etc/shells
+```
+
+当前使用的终端：
+
+```bash
+echo $SHELL
+```
+
+将默认终端设置成`zsh`，调整后需要重启生效：
+
+```bash
+chsh -s /bin/zsh
+```
+
+## 安装 oh-my-zsh
+
+官网：[oh-my-zsh](https://ohmyz.sh/#install)，提供了`curl`和`wget`两种方式：
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(wget https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+```
+
+## 设置主题
+
+安装成功后，打开配置文件，设置主题：
+
+```bash
+# 记事本打开
+open ~/.zshrc
+# vim打开
+vim ~/.zshrc
+```
+
+显示内容：
+
+```bash
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+
+# Path to your Oh My Zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
+
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time Oh My Zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+ZSH_THEME="robbyrussell"
+
+......
+```
+
+其中`ZSH_THEME="robbyrussell"`是主题参数的，可以在：[ohmyzsh/ohmyzsh/wiki/Themes](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)查看所有主题的效果，将选择使用的主题的名称填入这个参数即可。
+
+### 字符支持
+
+有一些主题依赖额外的字符，从 GitHub 下载并安装：
+
+```bash
+git clone https://github.com/powerline/fonts.git --depth=1
+
+cd fonts
+./install.sh
+
+cd ..
+rm -rf fonts
+```
+
+## oh-my-zsh 插件
+
+除了漂亮的主题，oh-my-zsh 还拥有丰富的插件系统：[ohmyzsh/ohmyzsh/wiki/plugins](https://github.com/ohmyzsh/ohmyzsh/wiki/plugins)
+
+还是打开`~/.zshrc`，其中有这样的内容：
+
+```bash
+# Would you like to use another custom folder than $ZSH/custom?
+# ZSH_CUSTOM=/path/to/new-custom-folder
+
+# Which plugins would you like to load?
+# Standard plugins can be found in $ZSH/plugins/
+# Custom plugins may be added to $ZSH_CUSTOM/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(git)
+```
+
+默认在安装时已经配备了 git 的别名插件，其中常用的别名可以在这篇中查看：[git 配置别名](/04-tools/git_settings## 5. 配置别名)。
+
+在插件系统中挑选喜欢的插件，推荐的插件有：
+
+### 命令行高亮、补全
+
+来源：[Oh my ZSH with zsh-autosuggestions zsh-syntax-highlighting zsh-fast-syntax-highlighting and zsh-autocomplete.md](https://gist.github.com/n1snt/454b879b8f0b7995740ae04c5fb5b7df)
+
+安装如下插件：
+
+- autosuggesions plugin
+  - `git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions`
+- zsh-syntax-highlighting plugin
+  - `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting`
+- zsh-fast-syntax-highlighting plugin
+  - `git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting`
+- zsh-autocomplete plugin
+  - `git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete`
+
+在配置文件中使用：
+
+```bash
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting zsh-autocomplete)
+```
+
+### 其他推荐
+
+- [z](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/z)：记录历史路径，提供快速跳转。使用`z`、`z p`。
+- [copypath](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copypath)：复制当前的路径到剪切板。使用：`copypath <文件或目录>`，不加参数就是复制当前路径，相比`pwd`再光标选中更快捷。
+- [copyfile](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/copyfile)：复制文件内容到剪切板。使用：`copyfile filename.txt`，即可将文件的内容复制，省略打开文件的后全选复制的步骤。
+
+# iTerm2
+
+## 安装
+
+```bash
+brew install --cask iterm2
+```
+
+## 设置主题
+
+1. `command ,`唤出 settings 菜单。
+2. `Profiles`->`colors`->`color Presets`下选择颜色和主题、进行微调。
+3. 更多颜色主题：[Iterm2-color-schemes](https://iterm2colorschemes.com/)
+4. 挑选喜欢的主题后，下载对应的文件。
+5. 在第 2 步的`color Presets`下选择`import`，选择下载的主题文件，后缀`.itermcolors`。
+6. 再次打开`color Presets`就会发现主题已经加载，点击使用即可。
+
+ddl 喜欢的主题：[tokyonight](https://raw.githubusercontent.com/mbadolato/iTerm2-Color-Schemes/master/schemes/tokyonight.itermcolors)
+
+最后将 item2 保留在程序坞上方便使用即可～
+
 # Xcode-select 安装命令行工具
 
 在安装 Homebrew 时，也会附带下载 Xcode 命令行工具，如果没有安装 Xcode 命令行工具，可以运行：
@@ -93,3 +248,11 @@ xcode-select --install
 Mac 系统自带了 Git，或者在安装 XCode 时，也已经安装了 Git。
 
 可以参考此文章获得更详细的配置：[🔑Git 环境配置和 SSH 公钥设置](/04-tools/git_settings)
+
+# Mac 上给 VS code 设置命令行打开目录
+
+[VS code 官网](https://code.visualstudio.com/)
+
+1. 打开 VS code，`shift + command + p`调出命令面板
+2. 输入`shell Command`，选择`在PATH中安装code命令`
+3. 点击弹出框，确认操作
