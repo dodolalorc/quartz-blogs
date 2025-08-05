@@ -105,7 +105,7 @@ vim ~/.zshrc
 
 显示内容：
 
-```bash
+```bash showLineNumbers warp {11}
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
@@ -143,7 +143,7 @@ rm -rf fonts
 
 还是打开`~/.zshrc`，其中有这样的内容：
 
-```bash
+```bash showLineNumbers warp {9}
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
