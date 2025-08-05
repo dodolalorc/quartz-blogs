@@ -4,18 +4,15 @@ description: ""
 tags:
   - "Mac"
   - "Git"
-  - Item2
-  - zsh
+  - "HomeBrew"
+  - "Item2"
+  - "zsh"
+  - "oh-my-zsh"
 date: 2025-08-01
 lastmod: 2025-08-05
 draft: false
 cover: 
 description: ""
-tags:
-  - "#Mac"
-  - "#Git"
-  - Item2
-  - zsh
 categories: 
 series: 
 hiddenFromHomePage: false
