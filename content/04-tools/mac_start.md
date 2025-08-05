@@ -12,7 +12,6 @@ date: 2025-08-01
 lastmod: 2025-08-05
 draft: false
 cover: 
-description: ""
 categories: 
 series: 
 hiddenFromHomePage: false
