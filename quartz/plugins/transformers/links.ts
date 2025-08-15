@@ -94,7 +94,7 @@ export const CrawlLinks: QuartzTransformerPlugin<Partial<Options>> = (userOpts) 
                       properties: {
                         src: `https://www.google.com/s2/favicons?domain=${domain}`,
                         alt: "",
-                        style: "width: 1em; height: auto; margin-left: 4px; margin-right: 4px;",
+                        style: "width: 1em; height: auto; margin-left: 4px; margin-right: 4px; vertical-align: middle;",
                       },
                       children: [],
                     })
