@@ -53,16 +53,16 @@ license: ""
 
 ---
 
-### 最近的 TODO
+### 💡 最近 TODO
 
 #### TODO Blogs
 
-| 状态        | 标题                      | 描述                                                   |
-| ----------- | ------------------------- | ------------------------------------------------------ |
-| 【PENDING】 | Electron 简单项目起步系列 | 随便记录 Electron 客户端开发学习                       |
-| 【PENDING】 | Git Commit 钩子           | 探索 Git Commit 格式化和其他脚本的工作流               |
-| 【PENDING】 | windows shell 别名        | 为我的 oh-my-bash 实现添加好用的别名                   |
-| 【PENDING】 | 带图标的 Blog 跳转链接    | 展示链接时可以在链接左侧展示对应网站的 title icon 图标 |
+| 状态        | 标题                | 描述                                |
+| --------- | ----------------- | --------------------------------- |
+| 【PENDING】 | Electron 简单项目起步系列 | 随便记录 Electron 客户端开发学习             |
+| 【PENDING】 | Git Commit 钩子     | 探索 Git Commit 格式化和其他脚本的工作流        |
+| 【PENDING】 | windows shell 别名  | 为我的 oh-my-bash 实现添加好用的别名          |
+| 【DEV】     | 带图标的 Blog 跳转链接    | 展示链接时可以在链接左侧展示对应网站的 title icon 图标 |
 
 #### TODO Projects
 
