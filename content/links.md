@@ -24,21 +24,21 @@ license: ""
 
 ## ✨️✨️ 友链列表：
 
-| 名称 | 链接 | 简介 |
-| ---- | ---- | ---- |
-| dodola | [https://dodolalorc.cn/](https://dodolalorc.cn/) | 要是人生能像星露谷就好了。✨ |
-| 思想犯 | [https://virgiling.github.io/](https://virgiling.github.io/) | 一个活的相对失败的 CSer 😢 |
-| Windlinxy | [https://windlinxy.github.io/](https://windlinxy.github.io/) | 测试岗牛马的失败生活 🐴 |
-| YorkWu's Blog | [https://wyy.ink/](https://wyy.ink/) | ddl:一个很强的学长QwQ！！👍 |
-| 无双 | [https://blog.wushuang233.com/](https://blog.wushuang233.com/) | ddl:是很强的陈老师！👨‍🏫 |
-| Roses | [https://rossqaq.github.io/](https://rossqaq.github.io/) | NENU 唯一懂 C++ 的人 💻 |
-| Steve Paul | [https://gsteve-paul.github.io/](https://gsteve-paul.github.io/) | 唯一史诗神 👑 |
-| Ling_1 | [https://ling101w.github.io/](https://ling101w.github.io/) | 网安爷✌️ |
-| Oyiso's Blog | [https://oyiso.cn/](https://oyiso.cn/) | The shortest answer is doing. ✨ |
-| Echo 的小窝 | [https://www.liveout.cn/](https://www.liveout.cn/) | 漂泊于互联网中的小窝 🏠 |
-| KAMIASUKA’s Blog | [https://kamiasuka.top/index.html](https://kamiasuka.top/index.html) | Patience is key in life ⏳ |
-| 松種小窝 | [https://pineseed.cn/](https://pineseed.cn/) | 花开又花落，时节暗中迁 🌸 |
-| 幻雪的博客 | [https://huanxueblog.top/](https://huanxueblog.top/) | 腐烂于花海，致死于所爱 🌹 |
+| 名称               | 链接                                                                   | 简介                              |
+| ---------------- | -------------------------------------------------------------------- | ------------------------------- |
+| dodola           | [https://dodolalorc.cn/](https://dodolalorc.cn/)                     | 要是人生能像星露谷就好了。✨                  |
+| 思想犯              | [https://virgiling.github.io/](https://virgiling.github.io/)         | 一个活的相对失败的 CSer 😢               |
+| Windlinxy        | [https://windlinxy.github.io/](https://windlinxy.github.io/)         | 测试岗牛马的失败生活 🐴                   |
+| YorkWu's Blog    | [https://wyy.ink/](https://wyy.ink/)                                 | ddl:一个很强的学长QwQ！！👍              |
+| 无双               | [https://blog.wushuang233.com/](https://blog.wushuang233.com/)       | ddl:是很强的陈老师！👨‍🏫               |
+| Roses            | [https://rossqaq.github.io/](https://rossqaq.github.io/)             | NENU 唯一懂 C++ 的人 💻              |
+| Steve Paul       | [https://gsteve-paul.github.io/](https://gsteve-paul.github.io/)     | 唯一史诗神 👑                        |
+| Ling_1           | [https://ling101w.github.io/](https://ling101w.github.io/)           | 网安爷✌️                           |
+| Oyiso's Blog     | [https://oyiso.cn/](https://oyiso.cn/)                               | The shortest answer is doing. ✨ |
+| Echo 的小窝         | [https://www.liveout.cn/](https://www.liveout.cn/)                   | 漂泊于互联网中的小窝 🏠                   |
+| KAMIASUKA’s Blog | [https://kamiasuka.top/index.html](https://kamiasuka.top/index.html) | Patience is key in life ⏳       |
+| 松種小窝             | [https://pineseed.cn/](https://pineseed.cn/)                         | 花开又花落，时节暗中迁 🌸                  |
+| 幻雪的博客            | [https://huanxueblog.top/](https://huanxueblog.top/)                 | 腐烂于花海，致死于所爱 🌹                  |
 
 ## ✨️✨️ 本站友链信息：
 

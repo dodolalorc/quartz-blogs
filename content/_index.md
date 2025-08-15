@@ -22,14 +22,13 @@ lightgallery: false
 license: ""
 ---
 
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Gloria+Hallelujah&size=30&duration=2000&pause=200&color=5EA77E&vCenter=true&multiline=true&width=600&height=200&lines=+(o%E3%82%9C%E2%96%BD%E3%82%9C)o%E2%98%86~+;Hi+from+dodola!;Welcome~+%E3%82%88%E3%81%86%E3%81%93%E3%81%9D%EF%BD%9E;I+am+a+front-end+developer.;(%26+retired+ACM+algorithm+contestant.))](https://git.io/typing-svg)
+[![Typing SVG](<https://readme-typing-svg.demolab.com?font=Gloria+Hallelujah&size=30&duration=2000&pause=200&color=5EA77E&vCenter=true&multiline=true&width=600&height=200&lines=+(o%E3%82%9C%E2%96%BD%E3%82%9C)o%E2%98%86~+;Hi+from+dodola!;Welcome~+%E3%82%88%E3%81%86%E3%81%93%E3%81%9D%EF%BD%9E;I+am+a+front-end+developer.;(%26+retired+ACM+algorithm+contestant.)>)](https://git.io/typing-svg)
 
 ---
 
 ### 🎐 个人信息：
 
-**昵称**：哆哆啦(dodola)，也可以缩写ddl
+**昵称**：哆哆啦(dodola)，也可以缩写 ddl
 
 **刷新地点**：杭州(实习+假期)/长春(上学)
 
@@ -47,10 +46,32 @@ license: ""
 
 **联系方式**：
 
-- [📮第一个长期使用的gmail](mailto:chenflora124@gmail.com)
-- [📮和域名一致的gmail](mailto:dodolalorc@gmail.com)
-- [🐧QQ Mail](mailto:2407445307@qq.com) 如果gmail发送失败可以联系的qq邮箱
+- [📮 第一个长期使用的 gmail](mailto:chenflora124@gmail.com)
+- [📮 和域名一致的 gmail](mailto:dodolalorc@gmail.com)
+- [🐧QQ Mail](mailto:2407445307@qq.com) 如果 gmail 发送失败可以联系的 qq 邮箱
 - [⭐dodola 的 github](https://github.com/dodolalorc)
+
+---
+
+### 最近的 TODO
+
+#### TODO Blogs
+
+| 状态        | 标题                      | 描述                                                   |
+| ----------- | ------------------------- | ------------------------------------------------------ |
+| 【PENDING】 | Electron 简单项目起步系列 | 随便记录 Electron 客户端开发学习                       |
+| 【PENDING】 | Git Commit 钩子           | 探索 Git Commit 格式化和其他脚本的工作流               |
+| 【PENDING】 | windows shell 别名        | 为我的 oh-my-bash 实现添加好用的别名                   |
+| 【PENDING】 | 带图标的 Blog 跳转链接    | 展示链接时可以在链接左侧展示对应网站的 title icon 图标 |
+
+#### TODO Projects
+
+|  当前状态   | 名称               | 功能简述                                                                                                     | 项目地址                                        |
+| :---------: | ------------------ | ------------------------------------------------------------------------------------------------------------ | ----------------------------------------------- |
+| 【PENDING】 | 拼豆图纸生成工具   | 内嵌 AI，可以根据描述生成图案；<br>支持更好的对像素图的分析和生成图纸；<br>支持自定义修改和绘制。            |                                                 |
+| 【PENDING】 | 多标签页浏览器模型 | 开发一个简易的可以支持多 Tab 页面的 Electron 客户端，主要关注 Tab 页的实现和管理，探索学习和体验多进程架构。 | https://github.com/dodolalorc/multi-tab-browser |
+| 【PENDING】 | 屏幕录制工具       | 可以实现对电脑上任意区域的录制，录制时提供工具栏，可以添加标注。                                             |                                                 |
+| 【PENDING】 | Blog 友链卡片      | 或许会作为 quartz 的一个社区 plugin，提供多主题的漂亮友链。                                                  |                                                 |
 
 ---
 
@@ -58,7 +79,7 @@ license: ""
 
 **建站日期**：2023/11/28
 
-**本站简介**：本站会用来保存ddl的电子笔记，涉及各种笔记和 bug 日记，但目前算法笔记含量很高（你这辈子就是被算竞害了），就是个杂七杂八的电子小仓库，欢迎您的访问！非常欢迎友链互链，相互交流！很高兴认识你~
+**本站简介**：本站会用来保存 ddl 的电子笔记，涉及各种笔记和 bug 日记，但目前算法笔记含量很高（你这辈子就是被算竞害了），就是个杂七杂八的电子小仓库，欢迎您的访问！非常欢迎友链互链，相互交流！很高兴认识你~
 
 **框架**：
 
