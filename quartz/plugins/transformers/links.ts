@@ -92,9 +92,9 @@ export const CrawlLinks: QuartzTransformerPlugin<Partial<Options>> = (userOpts) 
                       type: "element",
                       tagName: "img",
                       properties: {
-                        src: `https://www.google.com/s2/favicons?domain=${domain}`,
+                        src: `https://s2.googleusercontent.com/s2/favicons?domain_url=${domain}`,
                         alt: "",
-                        style: "width: 1em; height: auto; margin-left: 4px; margin-right: 4px; vertical-align: middle;",
+                        style: "width: 1em; height: auto; margin: 0 4px; vertical-align: middle;",
                       },
                       children: [],
                     })

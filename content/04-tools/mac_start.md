@@ -1,13 +1,13 @@
 ---
-title: 🍎【doing】我的 mac 开荒手册
+title: 🍎我的 mac 开荒手册
 description: ""
 tags:
-  - "Mac"
-  - "Git"
-  - "HomeBrew"
-  - "Item2"
-  - "zsh"
-  - "oh-my-zsh"
+  - Mac
+  - Git
+  - HomeBrew
+  - Item2
+  - zsh
+  - oh-my-zsh
 date: 2025-08-01
 lastmod: 2025-08-05
 draft: false
