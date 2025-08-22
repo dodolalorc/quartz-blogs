@@ -40,6 +40,10 @@ jobs:
         run: |
           pnpm install
 
+      # - name: i18n Translate(currently only English)
+      #   run: |
+      #     pnpm run i18n:translate
+
       - name: Build with
         run: |
           pnpm run build
