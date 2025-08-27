@@ -10,7 +10,7 @@ type Options = {
     repoId: string
     category: string
     categoryId: string
-    theme?: string
+    themeUrl?: string
     lightTheme?: string
     darkTheme?: string
     mapping?: "url" | "title" | "og:title" | "specific" | "number" | "pathname"
@@ -26,7 +26,7 @@ function boolToStringBool(b: boolean): string {
 }
 
 export default ((opts: Options) => {
-  const Comments: QuartzComponent = ({ displayClass, fileData }: QuartzComponentProps) => {
+  const Comments: QuartzComponent = ({ displayClass, fileData, cfg }: QuartzComponentProps) => {
     // check if comments should be displayed according to frontmatter
     const disableComment: boolean =
       typeof fileData.frontmatter?.comments !== "undefined" &&
@@ -36,22 +36,23 @@ export default ((opts: Options) => {
     }
 
     return (
-      <script
-        src="https://giscus.app/client.js"
-        class={classNames(displayClass, "giscus")}
+      <div
+        className={classNames(displayClass, "giscus")}
         data-repo={opts.options.repo}
         data-repo-id={opts.options.repoId}
         data-category={opts.options.category}
         data-category-id={opts.options.categoryId}
-        data-mapping={opts.options.mapping ?? "pathname"}
-        data-strict={boolToStringBool(opts.options.strict ?? false)}
+        data-mapping={opts.options.mapping ?? "url"}
+        data-strict={boolToStringBool(opts.options.strict ?? true)}
         data-reactions-enabled={boolToStringBool(opts.options.reactionsEnabled ?? true)}
         data-input-position={opts.options.inputPosition ?? "bottom"}
-        data-theme={opts.options.theme ?? "preferred_color_scheme"}
+        data-light-theme={opts.options.lightTheme ?? "light"}
+        data-dark-theme={opts.options.darkTheme ?? "dark"}
+        data-theme-url={
+          opts.options.themeUrl ?? `https://${cfg.baseUrl ?? "example.com"}/static/giscus`
+        }
         data-lang={opts.options.lang ?? "en"}
-        crossorigin="anonymous"
-        async
-      ></script>
+      ></div>
     )
   }
 
