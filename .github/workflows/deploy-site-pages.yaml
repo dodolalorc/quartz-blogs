@@ -68,7 +68,3 @@ jobs:
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
           TARGET: ${{ secrets.REMOTE_TARGET }}
           SOURCE: "public/"
-          SCRIPT_BEFORE: |
-            mkdir -p "${{ secrets.REMOTE_TARGET }}"
-            rm -rf "${{ secrets.REMOTE_TARGET }}"/*
-            ls -la "${{ secrets.REMOTE_TARGET }}"
