@@ -55,7 +55,7 @@ jobs:
           external_repository: dodolalorc/dodolalorc.github.io # 发布到哪个repo
           personal_token: ${{ secrets.ACTION_ACCESS_TOKEN }} # 发布到其他repo需要提供上面生成的personal access token
           publish_dir: ./public/ # 要发布哪个文件夹的内容
-          keep_files: true # 是否保留其他文件
+          keep_files: false # 是否保留其他文件
           publish_branch: main # 发布到哪个branch
           commit_message: ${{ github.event.head_commit.message }} # 提交信息
       
@@ -68,4 +68,7 @@ jobs:
           REMOTE_USER: ${{ secrets.REMOTE_USER }}
           TARGET: ${{ secrets.REMOTE_TARGET }}
           SOURCE: "public/"
-          SCRIPT_BEFORE: ls
+          SCRIPT_BEFORE: |
+            mkdir -p "${{ secrets.REMOTE_TARGET }}"
+            rm -rf "${{ secrets.REMOTE_TARGET }}"/*
+            ls -la "${{ secrets.REMOTE_TARGET }}"
