@@ -28,7 +28,7 @@ license: ""
 
 ### 🎐 个人信息：
 
-**昵称**：哆哆啦(dodola)，也可以缩写 ddl
+**昵称**：哆哆啦(dodola)，缩写 ddl
 
 **刷新地点**：杭州(实习+假期)/长春(上学)
 
@@ -36,7 +36,7 @@ license: ""
 
 > I Navigate The Journey.
 
-本科 2026 届东师计科专业，不太打算读研，目前在字节跳动当实习生，正在努力学习进军互联网。
+本科 2026 届东师计科专业，目前在字节跳动当实习生，正在努力学习进军互联网。
 
 平时喜欢打点电子游戏，动森/星露谷/splatoon/雀魂。喜欢做点拼豆、钩织之类的手工。
 
@@ -47,7 +47,7 @@ license: ""
 **联系方式**：
 
 - [📮 第一个长期使用的 gmail](mailto:chenflora124@gmail.com)
-- [📮 和域名一致的 gmail](mailto:dodolalorc@gmail.com)
+- [📮 和域名一致的 gmail（现在常用）](mailto:dodolalorc@gmail.com)
 - [🐧QQ Mail](mailto:2407445307@qq.com) 如果 gmail 发送失败可以联系的 qq 邮箱
 - [⭐dodola 的 github](https://github.com/dodolalorc)
 
@@ -61,7 +61,8 @@ license: ""
 | --------- | ----------------- | -------------------------- |
 | 【PENDING】 | Electron 简单项目起步系列 | 随便记录 Electron 客户端开发学习      |
 | 【PENDING】 | Git Commit 钩子     | 探索 Git Commit 格式化和其他脚本的工作流 |
-| 【PENDING】 | windows shell 别名  | 为我的 oh-my-bash 实现添加好用的别名   |
+| 【PENDING】 | 更多的八股             |                            |
+| 【PENDING】 | 算法比赛中我的代码风格及STL   |                            |
 
 #### TODO Projects
 
