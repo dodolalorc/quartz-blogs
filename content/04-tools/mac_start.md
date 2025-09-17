@@ -1,5 +1,5 @@
 ---
-title: 🍎我的 mac 开荒手册
+title: 🍎 我的 mac 开荒手册
 description: ""
 tags:
   - Mac
@@ -11,9 +11,9 @@ tags:
 date: 2025-08-01
 lastmod: 2025-08-05
 draft: false
-cover: 
-categories: 
-series: 
+cover:
+categories:
+series:
 hiddenFromHomePage: false
 hiddenFromSearch: false
 featuredImage: https://img.dodolalorc.cn/i/2025/04/26/680c5fafe06e9.png
@@ -180,6 +180,7 @@ plugins=(git)
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting zsh-autocomplete)
 ```
 
+> 不过实际使用的时候个人还是喜欢去掉`zsh-autosuggestions`，只使用补全
 ### 其他推荐
 
 - [z](https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/z)：记录历史路径，提供快速跳转。使用`z`、`z p`。
