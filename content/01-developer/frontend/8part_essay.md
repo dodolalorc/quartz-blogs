@@ -29,22 +29,22 @@ license: ""
 - **Vue 3**：通过重写虚拟 DOM 和优化编译器，性能显著提升，渲染速度更快，内存占用更少。
 - **Vue 2**：性能较好，但不如 Vue 3。
 
-  **Composition API**
+**Composition API**
 
 - **Vue 3**：引入了 Composition API，允许开发者按逻辑组织代码，提升复杂组件的可维护性。
 - **Vue 2**：主要使用 Options API，代码组织方式相对固定。
 
-  **响应式系统**
+**响应式系统**
 
 - **Vue 3**：使用 `Proxy` 实现响应式系统，支持更多数据类型，性能更好。
 - **Vue 2**：使用 `Object.defineProperty`，存在一些局限性，如无法检测数组和对象的变化。
 
-  **TypeScript 支持**
+**TypeScript 支持**
 
 - **Vue 3**：内置 TypeScript 支持，类型推断更完善。
 - **Vue 2**：对 TypeScript 的支持较弱，类型推断不够完善。
 
-  **Fragment 和 Teleport**
+**Fragment 和 Teleport**
 
 - **Vue 3**：支持 Fragment（多根节点组件）和 Teleport（将组件渲染到 DOM 其他位置）。
 - **Vue 2**：不支持这些特性。
@@ -59,12 +59,12 @@ license: ""
 - **Vue 3**：部分生命周期钩子更名（如 `beforeDestroy` 改为 `beforeUnmount`），并新增了 `setup` 函数。
 - **Vue 2**：使用传统的生命周期钩子。
 
-  **自定义渲染器**
+**自定义渲染器**
 
 - **Vue 3**：支持自定义渲染器，适用于非 DOM 环境（如小程序、Canvas）。
 - **Vue 2**：不支持自定义渲染器。
 
-  **Suspense**
+**Suspense**
 
 - **Vue 3**：支持 Suspense，用于处理异步组件加载。
 - **Vue 2**：不支持 Suspense。
