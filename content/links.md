@@ -33,7 +33,8 @@ license: ""
 | 无双               | [https://blog.wushuang233.com/](https://blog.wushuang233.com/)       | ddl:是很强的陈老师！👨‍🏫               |
 | Roses            | [https://rossqaq.github.io/](https://rossqaq.github.io/)             | NENU 唯一懂 C++ 的人 💻              |
 | Steve Paul       | [https://gsteve-paul.github.io/](https://gsteve-paul.github.io/)     | 唯一史诗神 👑                        |
-| Ling_1           | [https://ling101w.github.io/](https://ling101w.github.io/)           | 网安爷✌️                           |
+| Ling_1           | [https://ling101w.github.io/](https://ling101w.github.io/)           | 参见网安爷✌️                           |
+| artemis           | [https://1artemise.github.io/](https://1artemise.github.io/)           | 101的学妹✌️                           |
 | Oyiso's Blog     | [https://oyiso.cn/](https://oyiso.cn/)                               | The shortest answer is doing. ✨ |
 | Echo 的小窝         | [https://www.liveout.cn/](https://www.liveout.cn/)                   | 漂泊于互联网中的小窝 🏠                   |
 | KAMIASUKA’s Blog | [https://kamiasuka.top/index.html](https://kamiasuka.top/index.html) | Patience is key in life ⏳       |
