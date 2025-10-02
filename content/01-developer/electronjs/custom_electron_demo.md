@@ -7,7 +7,7 @@ draft: false
 authors: 
 description: 只是一个本地测试的小流程记录
 tags:
-  - 前端
+  - 客户端前端
   - Electron
   - Chromium
 categories:

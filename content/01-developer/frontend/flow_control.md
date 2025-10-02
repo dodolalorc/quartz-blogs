@@ -7,7 +7,7 @@ draft: false
 authors: 
 description: 
 tags:
-  - 前端
+  - Web前端
   - JavaScript
   - 前端八股文
 categories:

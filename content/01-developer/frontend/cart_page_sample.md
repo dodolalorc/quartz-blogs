@@ -7,7 +7,7 @@ draft: false
 authors: 
 description: 一篇用于从零开始，基于原生H5C3JS制作的购物车页面
 tags:
-  - 前端
+  - Web前端
 categories:
   - 在前端搬砖的日子里
 series: 

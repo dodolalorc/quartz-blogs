@@ -1,13 +1,12 @@
 ---
-title: JavaScript 链式调用 | 设计模式 笔记
+title: JavaScript 链式调用设计模式 | Vue举例
 subtitle: ""
 date: 2025-03-17T09:26:02+08:00
 lastmod: 2025-03-17T09:26:02+08:00
 draft: false
-authors: 
-description: 
+authors:
+description:
 tags:
-  - 前端
   - 链式调用
   - JavaScript
   - 前端八股文

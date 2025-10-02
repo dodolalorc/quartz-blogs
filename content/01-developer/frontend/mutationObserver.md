@@ -1,26 +1,21 @@
 ---
-title: "MutationObserver学习+实践"
+title: MutationObserver学习+实践
 subtitle: ""
 date: 2024-07-04T16:31:24+08:00
 lastmod: 2024-07-04T16:31:24+08:00
 draft: false
 authors: []
 description: ""
-
-tags: [
-  "前端", "JavaScript"
-]
-categories: [
-  "在前端搬砖的日子里", "关于本站点的一些设置"
-]
+tags:
+  - JavaScript
+categories:
+  - 在前端搬砖的日子里
+  - 关于本站点的一些设置
 series: []
-
 hiddenFromHomePage: false
 hiddenFromSearch: false
-
-featuredImage: ""
-featuredImagePreview: ""
-
+featuredImage: https://img.dodolalorc.cn/i/2025/10/03/68dee7c17f6d0.png
+featuredImagePreview: https://img.dodolalorc.cn/i/2025/10/03/68dee7c17f6d0.png
 toc:
   enable: true
 math:

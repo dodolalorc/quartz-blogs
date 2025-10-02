@@ -7,7 +7,6 @@ draft: false
 authors: 
 description: ""
 tags:
-  - 前端
   - JavaScript
   - 前端八股文
 categories:
@@ -35,8 +34,8 @@ license: ""
 
 ### 术语
 
-- 断点续传
-- 断开重连重传
+- **断点续传**
+- **断开重连重传**
 - **切片上传**
 
 ## 切片上传
