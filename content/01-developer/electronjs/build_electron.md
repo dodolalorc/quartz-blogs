@@ -63,7 +63,14 @@ ERROR:root:Failed to bootstrap depot_tools.
 Git was not found in PATH. Have you installed it?
 ```
 
-本机使用[Scoop](https://scoop.sh/)安装大部分的软件，难过的是通过这样下载的`git`无法被`depot_tools`工具识别，只能卸载本机当前的`git`后在[git](https://git-scm.com/downloads)重新下载一遍，之后`gclient`。
+本机使用[Scoop](https://scoop.sh/)安装大部分的软件，难过的是通过这样下载的`git`由于`PATH`是通过 scoop 的垫片`Shims`技术管理的，无法被`depot_tools`工具识别。
+
+一种方法是卸载本机当前的`git`后在[git](https://git-scm.com/downloads)重新下载一遍，重新添加`PATH`，另一种方法是将 git 路径单独加进去，之后`gclient`。
+
+1. 右键"此电脑" → "属性" → "高级系统设置"
+2. 点击"环境变量"
+3. 在"系统变量"中找到"Path"，点击"编辑"
+4. 添加 Git 的 bin 目录路径
 
 ### Electron build-tools
 
