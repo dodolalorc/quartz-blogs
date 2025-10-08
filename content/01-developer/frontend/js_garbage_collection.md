@@ -11,7 +11,8 @@ tags:
   - JavaScript
 categories:
   - 在前端搬砖的日子里
-series: []
+series:
+  - 前端八股文基础
 hiddenFromHomePage: false
 hiddenFromSearch: false
 featuredImage: https://img.dodolalorc.cn/i/2025/10/09/68e69b392a57b.png
