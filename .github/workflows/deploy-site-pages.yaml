@@ -21,14 +21,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
           fetch-depth: 0 # Not needed if lastUpdated is not enabled
       - uses: pnpm/action-setup@v4 # pnpm is optional but recommended, you can also use npm / yarn
         with:
           version: 8
       - name: Setup Node
-        uses: actions/setup-node@v5
+        uses: actions/setup-node@v6
         with:
           node-version: 22
           cache: ''
