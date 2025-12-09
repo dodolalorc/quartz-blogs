@@ -40,10 +40,6 @@ jobs:
         run: |
           pnpm install
 
-      # - name: i18n Translate(currently only English)
-      #   run: |
-      #     pnpm run i18n:translate
-
       - name: Build with
         run: |
           pnpm run build
@@ -58,13 +54,3 @@ jobs:
           keep_files: false # 是否保留其他文件
           publish_branch: main # 发布到哪个branch
           commit_message: ${{ github.event.head_commit.message }} # 提交信息
-      
-      - name: Deploy to Remote Server
-        uses: easingthemes/ssh-deploy@v5.1.1
-        with:
-          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
-          ARGS: "-rlgoDzvc -i"
-          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
-          REMOTE_USER: ${{ secrets.REMOTE_USER }}
-          TARGET: ${{ secrets.REMOTE_TARGET }}
-          SOURCE: "public/"
