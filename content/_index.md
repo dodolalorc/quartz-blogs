@@ -22,10 +22,6 @@ lightgallery: false
 license: ""
 ---
 
-[![Typing SVG](<https://readme-typing-svg.demolab.com?font=Gloria+Hallelujah&size=30&duration=2000&pause=200&color=5EA77E&vCenter=true&multiline=true&width=600&height=200&lines=+(o%E3%82%9C%E2%96%BD%E3%82%9C)o%E2%98%86~+;Hi+from+dodola!;Welcome~+%E3%82%88%E3%81%86%E3%81%93%E3%81%9D%EF%BD%9E;I+am+a+front-end+developer.;(%26+retired+ACM+algorithm+contestant.)>)](https://git.io/typing-svg)
-
----
-
 ### 🎐 个人信息：
 
 **昵称**：哆哆啦(dodola)，缩写 ddl
